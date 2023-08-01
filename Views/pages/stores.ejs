@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+       <%- include('../Partials/header')-%>
+       <body class="text-center">
+           <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+               <%- include('../Partials/nav')-%>
+                     <h1> Vegetarian Items For Sale </h1>
+                     <div class = "images">
+                     <div class= "imgContainer">
+                        <h4> Pre-Cooked Sweet Potato Fries</h4>
+                        <img src="https://www.simplyrecipes.com/thmb/Lgw6Y6fOUCsHLeR2JvL1ht66Fkw=/720x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Sweet-Potato-Fries-METHOD-LEAD-seo-v2-f3f5d040c93d43ecaf15b2a5f0a9844e.jpg" 
+                        alt="Sweet Potato Fries" style="width:300px;height:300px; border: 5px solid #00641e">
+                        <p id = "p01" > These sweet potato fries are frozen precooked fries. 
+                                All you would need to do is let them thaw a little bit and pop them in the oven.
+                                These fries would go perfectly with the Black Bean Burger!</p>
+                     </div>
+                     <div class = "imgContainer">
+                     <h4> Organic Virgin Olive Oil</h4>
+                     <img src="https://m.media-amazon.com/images/I/51KyBEPdd4L._SX425_.jpg" 
+                     alt="Olive Oil" style="width:300px;height:275px; border: 5px solid #00641e;" >
+                     <p id = "p02"> Purchase our organic olive oil for your kale salad! 
+                            ABragg Extra Virgin Olive Oil is imported from Greece and
+                             made with hand-picked Greek Koroneiki olives. You will 
+                             taste the flavors of Ancient Greece in this delicious oil.</p>
+                     </div>
+                     </div>
+                     <div>
+
+                     <form>
+                   <h4> Enter your information below to purchase today! </h4>
+                   <div class="row mb-4">
+                    <div class="col">
+                        <input
+                          type="text"
+                          id="form3Example1"
+                          class="form-control"
+                          autocomplete="off"
+                        />
+                        <label
+                          class="form-label"
+                          for="form3Example1"
+                          >First name</label
+                        >
+                     
+                    </div>
+                    <div class="col">
+                      <div class="form-outline">
+                        <input
+                          type="text"
+                          id="form3Example2"
+                          class="form-control"
+                          autocomplete="off"
+                        />
+                        <label
+                          class="form-label"
+                          for="form3Example2"
+                          >Last name</label
+                        >
+                        
+                      </div>
+                    </div>
+
+                  <!-- Email input -->
+                  <div class="col">
+                    <div class="form-outline">
+                    <input
+                      type="email"
+                      id="form3Example3"
+                      class="form-control"
+                      autocomplete="off"
+                    />
+                    <label
+                      class="form-label"
+                      for="form3Example3"
+                      >Email Address</label
+                    >
+                    
+                  </div>
+                  </div>
+
+                  <!-- Password input -->
+               
+                  <div class="col">
+                    <div class="form-outline">
+                    <input
+                      type="password"
+                      id="form3Example4"
+                      class="form-control"
+                      autocomplete="off"
+                    />
+                    <label
+                      class="form-label"
+                      for="form3Example4"
+                      >Password</label
+                    >
+                  </div>
+                  </div>
+                   </div>
+                            <p style="text-align: center; padding-top: 20px">
+                            <button type="submit" class="btn btn-primary">Place Order</button>
+                            </p>
+                     </form>
+              </div>
+              <%- include('../Partials/footer')-%>
+       </div>            
+       </body>
+</html>
